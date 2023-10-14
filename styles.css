@@ -3,13 +3,15 @@ body {
 }
 
 #par {
-    color:purple;
+    color:black;
     font-size: 3em;
+    text-align: center;
 }
 
 #mainhead {
     color:brown;
     font-size: 6em;
+    text-align: center;
 }
 
 #secondhead {
@@ -18,19 +20,17 @@ body {
 }
 
 .list {
-    color:purple;
+    color:black;
     font-size: 1em;
 }
 
 .flex {
     font-size: 2em;
-
+    font-weight: bold;
+    color: brown;
     padding: 20px;
-
     display: flex;
-
     flex-direction: row;
-
     justify-content: center;  
     align-items: center;        
 }
